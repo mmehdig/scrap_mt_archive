@@ -29,7 +29,7 @@ Each paper entity is specified with its title and url.
 However, sometimes there are more than one url mentioned over the website.
 Another process is needed to unify these papers based on other factors, such as year, authors and journal or conference name.
 
-For example these two papers are the same but with two different URLs:
+For example these papers are the same but with different URLs system created different entities:
 ```
 >>> papers[('The CoNLL-2009 Shared task: syntactic and semantic dependencies in multiple languages', '05/CoNLL-2009-Hajic.pdf')]['text'][0]
 '(2009) Jan Hajič, Massimiliano Ciaramita, Richard Johansson, Daisuke Kawahara, Maria Antònia Marti, Lluís Màrquez, Adam Meyers, Joakim Nivre, Sebastian Padó, Jan Štěpánek, Pavel Straňák, Mihai Surdeanu, Nainwen Xue, & Yi Zhang: The CoNLL-2009 Shared task: syntactic and semantic dependencies in multiple languages . CoNLL-2009. Proceedings of the Thirteenth Conference on Computational Natural Language Learning: Shared Task , June 4, 2009, Boulder , Colorado ; pp.1-18. [PDF, 220KB]'
