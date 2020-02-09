@@ -112,8 +112,3 @@ class AuthorSpider(scrapy.Spider):
 process = CrawlerProcess()
 process.crawl(AuthorSpider)
 process.start()
-#print(papers)
-for fnames, lnames, apapers in authors:
-    if 'Johansson' in fnames and 'Richard' in lnames:
-        for paper_text, paper_url, _ in  apapers:
-            print(papers[(paper_text, paper_url)])
